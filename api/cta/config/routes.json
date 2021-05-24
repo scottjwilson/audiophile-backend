@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cta",
+      "handler": "cta.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cta",
+      "handler": "cta.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cta",
+      "handler": "cta.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
